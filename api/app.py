@@ -9,7 +9,7 @@ st.title('Plant leave health prediction app')
 
 # Loading model and defining the classes
 
-MODEL = tf.keras.models.load_model("D:\Great learning\plant-pathology-2020-fgvc7\model_best")
+MODEL = tf.keras.models.load_model("..\model_best")
 CLASS_NAMES = ["Not healthy","Healthy"]
 
 
